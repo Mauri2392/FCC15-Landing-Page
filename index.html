@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Product FCC</title> 
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+                <img 
+                src="https://d22fxaf9t8d39k.cloudfront.net/acbeb972f7a241b4eabb3232fabf20a9c0f70a860d0fbdfde0390e9d49c35ffb41804.png"
+                alt="logo"
+                id="header-img"
+                /> 
+                <span class="the-product">Entradas Argentina</span>
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="#features" >Caracteristicas</a></li>
+                    <li><a class="nav-link" href="#audio" >Como Trabajamos</a></li>
+                    <li><a class="nav-link" href="#precios" >Precios</a></li>
+    
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="email-section">
+        <h2>Las Entradas mas Baratas del Pais</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" class="form">
+            <input 
+            id="email"
+            type="email" 
+            required 
+            placeholder="Ingresa tu email" 
+            name="email" />
+            <input type="submit" id="submit" value="Enviar"/>
+        </form>
+    </section>
+
+    <section id="features">
+        <div class="feature">
+            <i class="ri-football-fill ri-4x icon"></i>
+            <div>
+              <h2>Argentina vs Ecuador</h2>
+              <p>
+                 Veni a alentar a la seleccion en un partido importantisimo por las eliminatorias Sudamericanas. 
+              </p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <i class="ri-truck-fill ri-4x icon"></i>
+            <div>
+              <h2>Llegan en el dia</h2>
+              <p>
+                Nos aseguramos de que tu entrada llegue en el dia. Si no estas satisfecho ofrecemos devoluciones gratuitas.
+              </p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <i class="ri-coupon-2-fill ri-4x icon"></i> 
+            <div>
+              <h2>Calidad Asegurada</h2>
+              <p>
+                Nos aseguramos que tu entrada no sea falsa, debe contener un holograma de la AFA en el reverso.
+              </p>
+            </div>
+        </div>
+    </section> 
+
+    <section id="audio">
+        <iframe 
+        width="1343" 
+        height="480" 
+        src="https://www.youtube.com/embed/ricHDE1FV8c" 
+        title="Argentina campeón: a un mes de la final, reviví partido a partido el camino a la gloria" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section id="precios">
+            <div class="product" id="popular">
+              <div class="nivel">Popular</div>
+              <h2>$10.000</h2>
+              <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+              </ol>
+              <a href="#" class="btn">COMPRAR</a>
+            </div>
+
+            <div class="product" id="general">
+                <div class="nivel">General</div>
+                <h2>$15.000</h2>
+                <ol>
+                  <li>Lorem ipsum.</li>
+                  <li>Lorem ipsum.</li>
+                  <li>Lorem ipsum.</li>
+                  <li>Lorem ipsum.</li>
+                </ol>
+                <a href="#" class="btn">COMPRAR</a>
+              </div>
+
+            <div class="product" id="vip">
+                <div class="nivel">Vip</div>
+                <h2>$20.000</h2>
+                <ol>
+                  <li>Lorem ipsum.</li>
+                  <li>Lorem ipsum.</li>
+                  <li>Lorem ipsum.</li>
+                  <li>Lorem ipsum.</li>
+                </ol>
+                <a href="#" class="btn">COMPRAR</a>
+            </div>
+    </section>
+    
+    <footer>
+        <ul>
+          <li><a href="#">Privacidad</a></li>
+          <li><a href="#">Terminos</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+        <span>Copyright 2023, Entradas Originales</span>
+      </footer>
+</body>
+</html>
